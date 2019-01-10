@@ -1,0 +1,36 @@
+Tukey HSD test MAP:
+             Multiple Comparison of Means - Tukey HSD,FWER=0.05             
+============================================================================
+        group1                 group2         meandiff  lower  upper  reject
+----------------------------------------------------------------------------
+     Only TF-IDF            Stemmer BM25       0.0161  -0.0683 0.1006 False 
+     Only TF-IDF       Stoplist Stemmer BM25   0.0135   -0.071 0.0979 False 
+     Only TF-IDF      Stoplist Stemmer TF-IDF  0.0128  -0.0716 0.0973 False 
+     Stemmer BM25      Stoplist Stemmer BM25  -0.0027  -0.0871 0.0818 False 
+     Stemmer BM25     Stoplist Stemmer TF-IDF -0.0033  -0.0877 0.0812 False 
+Stoplist Stemmer BM25 Stoplist Stemmer TF-IDF -0.0006  -0.0851 0.0838 False 
+----------------------------------------------------------------------------
+Tukey HSD test RPrec:
+             Multiple Comparison of Means - Tukey HSD,FWER=0.05             
+============================================================================
+        group1                 group2         meandiff  lower  upper  reject
+----------------------------------------------------------------------------
+     Only TF-IDF            Stemmer BM25       0.0116   -0.072 0.0952 False 
+     Only TF-IDF       Stoplist Stemmer BM25   0.0101  -0.0735 0.0938 False 
+     Only TF-IDF      Stoplist Stemmer TF-IDF  0.0101  -0.0735 0.0937 False 
+     Stemmer BM25      Stoplist Stemmer BM25  -0.0015  -0.0851 0.0822 False 
+     Stemmer BM25     Stoplist Stemmer TF-IDF -0.0015  -0.0851 0.0821 False 
+Stoplist Stemmer BM25 Stoplist Stemmer TF-IDF   -0.0   -0.0837 0.0836 False 
+----------------------------------------------------------------------------
+Tukey HSD test Precision at 10:
+            Multiple Comparison of Means - Tukey HSD,FWER=0.05            
+==========================================================================
+        group1                 group2         meandiff lower  upper reject
+--------------------------------------------------------------------------
+     Only TF-IDF            Stemmer BM25       0.024   -0.147 0.195 False 
+     Only TF-IDF       Stoplist Stemmer BM25   0.012   -0.159 0.183 False 
+     Only TF-IDF      Stoplist Stemmer TF-IDF  0.014   -0.157 0.185 False 
+     Stemmer BM25      Stoplist Stemmer BM25   -0.012  -0.183 0.159 False 
+     Stemmer BM25     Stoplist Stemmer TF-IDF  -0.01   -0.181 0.161 False 
+Stoplist Stemmer BM25 Stoplist Stemmer TF-IDF  0.002   -0.169 0.173 False 
+--------------------------------------------------------------------------
